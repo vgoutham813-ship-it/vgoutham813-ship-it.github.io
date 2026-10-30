@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://your-site.com/</loc></url>
+<url><loc>https://your-site.com/tic-tac-toe/</loc></url>
+<url><loc>https://your-site.com/connect-four/</loc></url>
+<url><loc>https://your-site.com/memory-match/</loc></url>
+<url><loc>https://your-site.com/snakes-and-ladders/</loc></url>
+<url><loc>https://your-site.com/reversi/</loc></url>
+<url><loc>https://your-site.com/lights-out/</loc></url>
+</urlset>
