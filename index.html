@@ -3,37 +3,40 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Quiet Corner – Free Online Board Games to Relax, No Login</title>
-<meta name="description" content="Play free online board games to relax and de-stress: Tic-Tac-Toe, Connect Four, Memory Match, Snakes & Ladders, Reversi and Lights Out. No login, no sign-up.">
-<link rel="canonical" href="https://vgoutham813-ship-it.github.io/">
+<title>Tic-Tac-Toe Online – Free, No Login | Quiet Corner</title>
+<meta name="description" content="Play Tic-Tac-Toe online for free. No login or sign-up, works on phone and computer. A calm game to help you relax.">
+<link rel="canonical" href="https://vgoutham813-ship-it.github.io/tic-tac-toe/">
 <meta name="robots" content="index, follow">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Quiet Corner – Free Online Board Games to Relax, No Login">
-<meta property="og:description" content="Play free online board games to relax and de-stress: Tic-Tac-Toe, Connect Four, Memory Match, Snakes & Ladders, Reversi and Lights Out. No login, no sign-up.">
-<meta property="og:url" content="https://vgoutham813-ship-it.github.io/">
+<meta property="og:title" content="Tic-Tac-Toe Online – Free, No Login | Quiet Corner">
+<meta property="og:description" content="Play Tic-Tac-Toe online for free. No login or sign-up, works on phone and computer. A calm game to help you relax.">
+<meta property="og:url" content="https://vgoutham813-ship-it.github.io/tic-tac-toe/">
 <meta name="theme-color" content="#5d6fd0">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Quiet Corner","url":"https://vgoutham813-ship-it.github.io/"}</script>
+<link rel="stylesheet" href="../style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Tic-Tac-Toe","applicationCategory":"GameApplication","operatingSystem":"Any","url":"https://vgoutham813-ship-it.github.io/tic-tac-toe/","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
 </head>
 <body>
 <div class="wrap">
-<h1>Quiet Corner</h1>
-<p class="sub">Free board games to help you relax. There’s no sign-up, no timer and nothing to win. Pick a game and play for a few minutes.</p>
-<nav aria-label="Games">
-<a href="tic-tac-toe/"><span class="ic">⭕</span><span>Tic-Tac-Toe<small>Against the computer</small></span></a>
-<a href="connect-four/"><span class="ic">🔴</span><span>Connect Four<small>Drop and line up four</small></span></a>
-<a href="memory-match/"><span class="ic">🌸</span><span>Memory Match<small>Find the pairs</small></span></a>
-<a href="snakes-and-ladders/"><span class="ic">🎲</span><span>Snakes & Ladders<small>Roll and race the computer</small></span></a>
-<a href="reversi/"><span class="ic">⚫</span><span>Reversi<small>Flip the board to your color</small></span></a>
-<a href="lights-out/"><span class="ic">💡</span><span>Lights Out<small>Turn every light off</small></span></a>
+<p class="crumb"><a href="../">Quiet Corner</a></p>
+<h1>Play Tic-Tac-Toe online, free</h1>
+<p class="sub">Against the computer. No login, no sign-up. Just play.</p>
+<main class="panel" id="stage"></main>
+<section class="how"><h2>How to play Tic-Tac-Toe</h2>
+<p>Take turns with the computer to get three marks in a row. You play ✕ and tap any empty square to place it. The first to line up three across, down or diagonally wins. The computer is friendly and sometimes slips, so it is a gentle game for a short break.</p></section>
+<nav class="more" aria-label="More games">
+<a href="../tic-tac-toe/" aria-current="page"><span class="ic">⭕</span><span>Tic-Tac-Toe<small>Against the computer</small></span></a>
+<a href="../connect-four/"><span class="ic">🔴</span><span>Connect Four<small>Drop and line up four</small></span></a>
+<a href="../memory-match/"><span class="ic">🌸</span><span>Memory Match<small>Find the pairs</small></span></a>
+<a href="../snakes-and-ladders/"><span class="ic">🎲</span><span>Snakes & Ladders<small>Roll and race the computer</small></span></a>
+<a href="../reversi/"><span class="ic">⚫</span><span>Reversi<small>Flip the board to your color</small></span></a>
+<a href="../lights-out/"><span class="ic">💡</span><span>Lights Out<small>Turn every light off</small></span></a>
 </nav>
-<section class="how"><h2>Relaxing board games, right in your browser</h2>
-<p>Quiet Corner has six calm games you can play on your phone or computer: classic strategy games like Tic-Tac-Toe, Connect Four and Reversi, a gentle Memory Match, a lucky game of Snakes & Ladders and a quiet puzzle called Lights Out.</p>
-<p>There are no ads, no accounts and no pressure. Open a game and play whenever you need a short break.</p></section>
 <footer><p>Quiet Corner is a free collection of relaxing online board games. No login, no sign-up.</p><p>Take a slow breath. There’s no rush.</p></footer>
 </div>
+<script src="../games.js"></script>
+<script>ttt(document.querySelector("#stage"))</script>
 </body>
 </html>
