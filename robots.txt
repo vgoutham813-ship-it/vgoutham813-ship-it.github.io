@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://your-site.com/sitemap.xml
+Sitemap: https://vgoutham813-ship-it.github.io/sitemap.xml
